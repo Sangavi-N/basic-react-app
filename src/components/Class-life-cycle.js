@@ -10,18 +10,18 @@ class Life extends Component{
     }
 
     static getDerivedStateFromProps(props,state){
-        console.log("static of mounting")
+        console.log("getDerivedStateFromProps",props,state)
         return null
     }
     componentDidMount(){
-        console.log("component did unmount of mounting")
+        console.log("component did  of mounting")
     }
     shouldComponentUpdate(){
         console.log("should component update")
-        return true
+        return false
     }
     getSnapshotBeforeUpdate(prevProps,prevState){
-        console.log("snapshot of update")
+        console.log("snapshot of update",prevProps,prevState)
         return null
     }
     componentDidUpdate(){

@@ -10,7 +10,8 @@ import React,{ Component } from 'react'
 // import GetSnapshotBeforeUpdateMethod from './components/Unmounting/Getsnapshotbeforeupdate';
 // import ShouldComponentUpdateMethod from './components/Unmounting/Shouldcomponentupdate';
 // import ComponentWillUnmount from './components/Updating/Componentwillunmount';
-import Life from './components/Class-life-cycle';
+// import Life from './components/Class-life-cycle';
+import Main from './components/ClassLifeCycleExample';
 
 class App extends Component {
   render(){
@@ -26,7 +27,8 @@ class App extends Component {
      <GetSnapshotBeforeUpdateMethod />
      <ComponentDidUpdateMethod />
      <ComponentWillUnmount /> */}
-     <Life />
+     {/* <Life /> */}
+     <Main />
 
      </div>
   );
