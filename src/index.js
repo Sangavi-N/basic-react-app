@@ -3,10 +3,32 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Header from './components/Header'
+import Footer from './components/Footer'
+import About from './components/About'
+import Service from './components/Service'
+import Life from './components/Class-life-cycle'
+
+const Routing = () => {
+  return(
+    <Router>
+      <Header />
+      <Routes>
+        <Route exact path="/" element={<App />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/service" element={<Service />} />
+        <Route path="/life-cycle" element={<Life />} />
+      </Routes>
+      <Footer />
+    </Router>
+  )
+}
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Routing />
   </React.StrictMode>,
   document.getElementById('root')
 );

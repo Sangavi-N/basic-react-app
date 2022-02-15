@@ -35,7 +35,7 @@ class Life extends Component{
     render(){
         console.log("render of mounting")
         return (
-            <div>
+            <div className='App'>
                 <h1>Count : {this.state.count}</h1>
                 <button onClick={this.changeState}>Click me</button>
             </div>
