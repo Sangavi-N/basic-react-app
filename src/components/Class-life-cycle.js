@@ -14,7 +14,7 @@ class Life extends Component{
         return null
     }
     componentDidMount(){
-        console.log("component did  of mounting")
+        console.log("component did   mounting")
     }
     shouldComponentUpdate(){
         console.log("should component update")

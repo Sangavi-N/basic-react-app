@@ -11,6 +11,7 @@ export default function Header() {
                 <li><Link to="/service">Service</Link></li>
                 <li><Link to="/life-cycle">Life Cycle</Link></li>
                 <li><Link to="/functional-lyf-cycle">Functional Life Cycle</Link></li>
+                
             </ul>
         </>
     )
