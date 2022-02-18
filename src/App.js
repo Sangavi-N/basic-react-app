@@ -1,5 +1,4 @@
 import './App.css';
-
 import React,{ Component } from 'react'
 import HelloWorld from './components/Array';
 import FunctionalLifeCycles from './components/Functional-component';
@@ -12,9 +11,11 @@ import Forloop from './components/Forloop';
  import Index from './components/Props/Index';
 
  import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+ import { Link } from 'react-router-dom';
  import Header from './components/Header'
  import Footer from './components/Footer'
  import Service from './components/Service'
+ import Createform from './components/Loginpage';
 
 
 
@@ -36,6 +37,7 @@ class App extends Component {
         <Route path="/ternary" element={<Ternary />}/>
         <Route path="/spread" element={<Spread />}/>
         <Route path="/index" element={<Index />}/>
+        <Route path="/createform" element={<Createform />}/>
       </Routes>
       <Footer />
     </Router> 
