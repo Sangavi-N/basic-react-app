@@ -8,7 +8,7 @@ function Index(){
 return(
     <div>
     <div>this is index</div>
-    <Map details={employee}/>
+    <Map details={emp} newEmp = {setEmp}/>
     </div>
     )
 

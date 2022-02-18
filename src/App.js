@@ -1,28 +1,20 @@
 import './App.css';
 
 import React,{ Component } from 'react'
-import Hooks from './components/Reacthook';
 import HelloWorld from './components/Array';
-// import First from './components/Functional';
 import FunctionalLifeCycles from './components/Functional-component';
 import MapMethod from './components/Mapmethod';
 import Forloop from './components/Forloop';
 
-// import Welcome from './components/Class';
  import Life from './components/Class-life-cycle';
- import Main from './components/ClassLifeCycleExample';
  import Ternary from './components/Ternary';
  import Spread from './components/Spread-operator';
- import Destructing from './components/Destructing';
- import Map from './components/Props/Map';
  import Index from './components/Props/Index';
 
  import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
  import Header from './components/Header'
  import Footer from './components/Footer'
- import About from './components/About'
  import Service from './components/Service'
- //import Life from './components/Class-life-cycle'
 
 
 
@@ -43,7 +35,6 @@ class App extends Component {
         <Route path="/forloop" element={<Forloop />}/>
         <Route path="/ternary" element={<Ternary />}/>
         <Route path="/spread" element={<Spread />}/>
-        <Route path="/map" element={<Map />}/>
         <Route path="/index" element={<Index />}/>
       </Routes>
       <Footer />
