@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-function Forloop(){
+function Foreach(){
     
     let newValues=[]
     let arrayvalues=[1,2,3,4]
@@ -13,9 +13,9 @@ function Forloop(){
     
     console.log("new value is",newValues)
     return(
-        <div>For Loop</div>
+        <div>This is Foreach method</div>
     )
     
 }
 
-export default Forloop
+export default Foreach
