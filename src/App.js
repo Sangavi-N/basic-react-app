@@ -25,6 +25,8 @@ import Foreach from './components/Foreach';
  import Matlogin from './components/Materialised-login';
 import Singlereduxindex from './components/Singlereduxindex';
 import Reduxprocess from './components/Redux-process';
+import Userslist from './components/Users';
+import Axiosmethod from './components/Posts';
 
 
 const styles = {
@@ -66,6 +68,8 @@ class App extends Component {
         <Route path="/reacrstraplogin" element={<Reacrstraplogin />}/>
         <Route path="/matlogin" element={<Matlogin />}/>
         <Route path="/single-redux" element={<Singlereduxindex />}/>
+        <Route path="/userlist" element={<Userslist />}/>
+        <Route path="/axios" element={<Axiosmethod />}/>
       </Routes>
       <Footer />
     </Router> 
